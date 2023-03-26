@@ -1,0 +1,35 @@
+
+.container {
+    margin: 0;
+    background-color: var(--background);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid var(--borderColor);
+}
+
+.title {
+    font-size: 2em;
+    letter-spacing: 0.3em;
+
+}
+
+.logo {
+    padding: 0.75em;
+    padding-right: 2em;
+    letter-spacing: 0.15em;
+    font-size: 1.6em;
+}
+
+.navbar {
+    padding-bottom: 3px;
+}
+
+.navbarButtons {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.input {
+    display:none
+}

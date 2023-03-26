@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Special Elite";
+    font-weight: bold;
+}
+
+:root {
+
+    --text: #174d45;
+    --border: #28554f;
+    --textStrong: #152c29;
+    --background: #cfd5da;
+    --backgroundHighlight: #afb5b9;
+    --backgroundApp: #7a7c7e;
+    --borderColor: black;
+
+}
+
+p {
+    color: var(--text);
+    margin: 0;
+    padding: 0.5em;
+    
+}

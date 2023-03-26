@@ -1,0 +1,44 @@
+{
+    "name": "",
+    "age": 0,
+    "bodyType": 0,
+    "origin": "humano",
+    "irradiated": false,
+    "currentLife": 1,
+    "currentEnergy": 1,
+    "currentRadiation": 1,
+    "attributes": [
+        {"name":"Luta","QNT":0},
+        {"name":"Precisão","QNT":0},
+        {"name":"Arcano","QNT":0},
+        {"name":"Atletismo","QNT":0},
+        {"name":"Constituição","QNT":0},
+        {"name":"Destreza","QNT":0},
+        {"name":"Carisma","QNT":0},
+        {"name":"Cirurgia","QNT":0},
+        {"name":"Criaturas","QNT":0},
+        {"name":"Eletromecânica","QNT":0},
+        {"name":"Força","QNT":0},
+        {"name":"Medicina","QNT":0},
+        {"name":"Percepção","QNT":0},
+        {"name":"Pesquisa","QNT":0},
+        {"name":"Sobrevivência + Geografia","QNT":0},
+        {"name":"Sorte + Encontrar","QNT":0},
+        {"name":"Terapia","QNT":0}
+    ],
+    "itens": [
+        {"name":"","description":""}
+    ],
+    "exclusiveItens": [
+        {"name":"","description":""}
+    ],
+    "abilities": [
+        {"name":"","damage":"","cost":"","description":""}
+    ],
+    "principlesPoints": 3,
+    "principles": [
+        {"name":"","consequence":"","cost":"","description":""}
+    ],
+    "story":"A família de Sindy é uma família formada por inúmeros médicos, alguns deles bastante conhecidos pela sociedade por serem os médicos que salvaram milhares de vidas após o apocalipse radioativo, mas mesmo que sua família fosse bastante conhecida por salvar vidas, eles também eram conhecidos por serem intolerantes com espécies que são “burras e inferiores”. Mas Charlotte Healstym, a mãe de Sindy, era uma das únicas pessoas nessa família que não era racista e por isso ela tentava ajudar essas espécies com sua medicina sem que seus parentes soubessem, por isso ela criou um laboratório na parte pobre da cidade de centropolis de maneira que seus parentes que moravam na parte rica não soubessem disso . Com o passar do tempo Charlotte se apaixonou por um Orc chamado Sinnabar Harman que conheceu em seu consultório, após alguns meses Charlotte acabou engravidando dele. Quando sua família descobriu o que aconteceu, eles exilaram Charlotte do lugar onde morava, e caçaram o Orc, no fim das contas Charlotte foi acolhida por membros da facção robótica que moravam na parte pobre de centropolis, enquanto Sinnabar fugiu para a cidade dos Orcs. Quando Sindy nasceu sua mãe não queria dar a ele o nome de sua família pois ela não queria que seu filho fosse como eles, logo ela deu a seu filho o nome de Sindy Harman. Sindy cresceu aprendendo tudo com sua mãe, de conhecimentos gerais até conhecimentos aprofundados sobre medicina, sua mãe desejava provar para as sociedades “racistas” que espécies diferentes não são necessariamente “idiotas”. Quando era um jovem adulto Sindy já sabia o suficiente para ajudar as pessoas da facção, mas como em centropolis a tecnologia era bastante utilizada, Sindy começou a aprofundar seus conhecimentos na área da mecânica para que pudesse ajudar também as pessoas que  não eram feitas apenas de carne e osso. Após alguns anos estudando ele criou uma prótese e trocou pelo seu próprio braço, pois ele sabia que aquela prótese seria útil para ajudá lo, tanto em seu trabalho como médico, quanto em seu trabalho como mecânico, assim ele transformou o seu braço esquerdo em uma máquina de ajudar pessoas e robôs. Além de ajudar as pessoas, o principal objetivo de Sindy era ficar famoso pelo mundo como um Meio-Orc genial, para que o desejo de sua mãe se tornasse realidade.",
+    "anotations":""
+}

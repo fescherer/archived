@@ -1,0 +1,283 @@
+h5 {
+    font-size: 25px;
+    color: var(--text);
+}
+
+.container {
+    height: 100%;
+    margin: 0;
+    background-color: var(--background);
+
+
+}
+
+.containerInital {
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerInital label {
+    color: var(--text);
+    font-size: 20px;
+    padding: 8px;
+}
+
+.containerInital input {
+    font-size: 20px;
+    padding: 3px;
+}
+
+.inputName {
+    width: 55%; padding: .5em 1em;
+}
+
+.containerInital input:hover {
+    border: 2px solid var(--border);
+}
+
+.middleContainer {
+    display: flex;
+    width: 100%;
+    
+}
+
+.sheet {
+    width: 100%;
+    padding: 0.2em;
+}
+
+.horizontalLine {
+    width: 100%;
+    border: 2px solid var(--text);
+    opacity: 0.7;
+    margin-bottom: 0.4em;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+.firstLine {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aditionalInformation {
+    color: var(--text);
+    border-radius: 0.25em;
+    padding: 3px;
+    border: 1px solid var(--border);
+    margin: 5px;
+}
+
+.aditionalInformation:hover {
+    background-color: var(--backgroundHighlight);
+}
+
+.dropdownOrigin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.originsOptions {
+    justify-content: center;
+    font-size: 1.3em;
+    text-indent: 15px;
+    color: var(--text);
+    border: 2px solid var(--border);
+    border-radius: 0.25em;
+    cursor:pointer;
+    background-color: var(--background);
+ 
+}
+
+.checkboxIrradiated {
+    cursor: pointer;
+    padding-top: 0.3em;
+    margin: 0.25em;
+    font-size: 1.2em;
+    align-items: center;
+}
+
+.checkboxIrradiated input {
+    cursor: pointer;
+    margin: 0.2em;
+    width: 1.3em;
+    height: 1.3em;
+    display: inline-flex;
+    cursor: pointer;
+
+}
+
+.bars {
+    border-radius: 0.25em;
+    padding: 3px;
+    border: 1px solid var(--border);
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.bars:hover {
+    background-color: var(--backgroundHighlight);
+}
+
+.barContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0.4em;
+}
+
+.barContainer > label{
+    align-self: flex-end;
+}
+
+.barContainer > label > span {
+    font-size: 1.6em;
+    padding-right: 3px;
+    color: var(--text);
+}
+
+.barContainer > label > input {
+    padding: 5px;
+    height: auto;
+    height: 30px;
+    line-height: 30px;
+}
+
+.barContainer > label > input:hover {
+    border: 2px solid var(--border);
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+.secondLine {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.containerExclusiveItems {
+    border-radius: 0.25em;
+    padding: 3px;
+    border: 1px solid var(--border);
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.containerExclusiveItems:hover {background-color: var(--backgroundHighlight);}
+
+.containerItems {
+    border-radius: 0.25em;
+    padding: 3px;
+    border: 1px solid var(--border);
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.containerItems:hover {background-color: var(--backgroundHighlight);}
+
+.textarea {
+    font-size: 17px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.textarea:hover {
+    border: 2px solid var(--border);
+}
+/*------------------------------------------------------------------------------------------------------*/
+.thirdLine {
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.abilities {
+    border-radius: 0.25em;
+    padding: 3px;
+    border: 1px solid var(--border);
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+
+
+.principles {
+    border-radius: 0.25em;
+    padding: 3px;
+    border: 1px solid var(--border);
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+.forthLine {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    padding: 1.5em;
+}
+
+.buttonTextArea {
+    color: var(--textStrong);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 1.5em;
+    margin: 1.5em;
+    cursor: pointer;
+    border: 2px solid var(--border);
+}
+
+.buttonTextArea:hover {
+    background-color: var(--backgroundHighlight);
+    border: 3px solid var(--border);
+}
+
+
+
+
+
+
+.cardContainer {
+    border-radius: 0.25em;
+    padding: 3px;
+    border: 1px solid var(--border);
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+.cardsContainer {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}

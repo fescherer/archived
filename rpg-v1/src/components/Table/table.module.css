@@ -1,0 +1,42 @@
+.tableContainer {
+    width: 20%;
+}
+
+.tableAttributes {
+    color: var(--text);
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 3px;
+
+  }
+
+.tableAttributes td input{
+    width: 100%;
+    padding: 5px;
+    height: auto;
+    height: 30px;
+    line-height: 30px;
+}
+  
+.tableAttributes td, .tableAttributes th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+.tableAttributes tr:nth-child(even){background-color: #f2f2f2;}
+
+.tableAttributes tr:hover {background-color: var(--backgroundHighlight);}
+
+.tableAttributes th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: var(--text);
+color: var(--background);
+}
+
+tr td:last-child {
+    width: 1%;
+    white-space: nowrap;
+}

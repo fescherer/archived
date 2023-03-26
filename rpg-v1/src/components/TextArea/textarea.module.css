@@ -1,0 +1,82 @@
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.568);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position:fixed;
+    z-index:99;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.container {
+    display: flex;
+    border: 3px solid var(--border);
+    width:50%;
+    height:50%;
+    position:fixed;
+    top:25%;
+    left:25%;
+    z-index:100;
+    background-color: var(--background);
+    text-align:center;
+    color: var(--text);
+    border-radius: 0.25em;
+
+}
+
+.closeButton {
+    position:absolute;
+    top:5px;
+    right:5px;
+    color: white;
+    font-size: 1.3em;
+    border-radius: 20%;
+    padding: 0.6em;
+    cursor: pointer;
+    background-color: rgb(117, 9, 9);
+    border: none;
+    shape-outside: margin-box;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.closeButton:hover {background-color: var(--backgroundHighlight)}
+
+.content {
+
+    padding: 3px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.title {
+    justify-self: flex-start;
+    font-size: 1.5em;
+    padding: 5px;
+    font-weight: 900;
+
+}
+
+.textareaContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.textArea {
+    font-size: 17px;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 1.3em;
+    padding: 5px;
+    max-width: 100%;
+    max-height: 84%;
+    resize: none;
+}
