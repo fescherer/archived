@@ -124,4 +124,4 @@ My name is Felipe Scherer. You can find my socials at [my Github profile](https:
 [issues-shield]: https://img.shields.io/github/issues/fescherer/archived.svg?style=for-the-badge
 [issues-url]: https://github.com/fescherer/archived/issues
 [license-shield]: https://img.shields.io/github/license/fescherer/archived.svg?style=for-the-badge
-[license-url]: https://github.com/fescherer/archived/blob/master/LICENSE.md
+[license-url]: https://github.com/fescherer/archived/blob/master/LICENSE
